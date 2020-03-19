@@ -1,0 +1,22 @@
+
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <div class="sidebar-sticky">
+
+
+
+        <div class="card bg-light">
+          <div class="card-head">
+            Head Guest!
+          </div>
+          
+        </div>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="{{route('tickets.index')}}">
+              <span data-feather="home"></span>
+              Tickets <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
